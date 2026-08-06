@@ -6,9 +6,27 @@
   "scripts": {
     "build": "tsc"
   },
-  "dependencies": {},
   "devDependencies": {
-    "typescript": "^5.5.3"
+    "@types/node": "^26.1.2",
+    "typescript": "^7.0.2",
+    "@types/express": "^5.0.6"
   },
-  "private": true
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Magd74NA/typescript-starter.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/Magd74NA/typescript-starter/issues"
+  },
+  "homepage": "https://github.com/Magd74NA/typescript-starter#readme",
+  "dependencies": {
+    "express": "^5.2.1",
+    "tsx": "^4.23.9",
+    "zod": "^4.4.3"
+  }
 }
