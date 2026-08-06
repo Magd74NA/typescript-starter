@@ -1,0 +1,31 @@
+{
+  "compilerOptions": {
+    // 1. Runtime Environment (Node.js 20+ / 22+)
+    "target": "ES2022",
+    "lib": ["ES2022"],
+    "module": "NodeNext",
+    "moduleResolution": "NodeNext",
+
+    // 2. File I/O
+    "rootDir": "./src",
+    "outDir": "./dist",
+
+    // 3. Strictness & Quality (The "2026 Baseline")
+    "strict": true,
+    "noUncheckedIndexedAccess": true,
+    "exactOptionalPropertyTypes": true,
+    "noImplicitReturns": true,
+    "noFallthroughCasesInSwitch": true,
+
+    // 4. Interoperability & DX
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "resolveJsonModule": true,
+    "declaration": true,
+    "declarationMap": true,
+    "sourceMap": true
+  },
+  "include": ["src/**/*.ts"],
+  "exclude": ["node_modules", "dist"]
+}
